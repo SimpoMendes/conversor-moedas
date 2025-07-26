@@ -1,0 +1,141 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+  background-color:#040f21;
+}
+
+/*video{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+} */
+.logo-convertmoney {
+    width: 250px;
+    display: block;
+    margin: 30px auto;
+    
+    
+}
+
+main {
+    width:500px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+    display: flex;
+    gap: 40px;
+    
+
+}
+
+
+
+label {
+    color: #777;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+select, input {
+    background: #FFF;
+    border: 1px solid #BBB;
+    border-radius: 4px;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    appearance: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555555;
+    cursor: pointer; 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;  
+    padding-left:2px;
+    padding-top:4PX; 
+    
+}
+
+.convert-button {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #772FD3;
+    font-size: 18px;
+    color: #fbfafa;
+    font-weight: 700;
+    line-height: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.convert-button:hover {
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.caixa-values{
+    padding: 18px 18PX;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+
+}
+section {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    padding-left: 18px ;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+}
+
+.arrow-img {
+    margin-top: 15px 0;
+    color: #f2f536;
+
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    margin: 5px;
+}
+
+.currency-to-convet, .currency-converted {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+
+}
+
+.currency-value, .currency-value-to-convert {
+    font-size: 20px;
+    font-weight: 700;
+    color: #555;
+
+}

@@ -1,7 +1,7 @@
 <h1>💱 Conversor de Moedas</h1>
 <br>
 <p>Este é um projeto simples de conversor de moedas online, desenvolvido com HTML, CSS e JavaScript puro, que permite 
-converter valores entre diferentes moedas utilizando taxas de câmbio atualizadas.</p>
+converter valores de Real para diferentes moedas tais como Dolar, Euro, Libra, Bitcoin e Etherrum,  utilizando taxas de câmbio atualizadas.</p>
 <br>
 <h2>🚀 Funcionalidades</h2>
 <br>
@@ -20,8 +20,10 @@ converter valores entre diferentes moedas utilizando taxas de câmbio atualizada
 
 <p>CSS3 — estilização e layout responsivo</p>
 
-<p>JavaScript (Vanilla JS) — lógica de conversão e integração com API</p>
+<p>JavaScript — lógica de conversão e integração com API</p>
 
 <br>
 
-<img src="">
+<img src="https://github.com/SimpoMendes/conversor-moedas/blob/main/assets/img/telaconversor.png?raw=true">
+<br>
+<br>
